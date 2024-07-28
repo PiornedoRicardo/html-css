@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(50, 13, 85);
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: chocolate;
+}
+
+a::after{
+    content: '💀';
+    text-decoration: none;
+    color: rgb(146, 12, 12);
+}
+a::before{
+    content: '☠️ ';
+
+}
