@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size:1.8em ;
+            font-weight: bold;
+            padding: 30px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 20px; 
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: rgb(224, 216, 216);
+        }
+        .produto{
+            background-color: yellow;  
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates non molestiae, commodi expedita cum cupiditate deleniti rerum assumenda hic sapiente sunt blanditiis distinctio iusto, eaque animi fugiat. Eaque, magni repellat.</p>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="produto">
+                <col class="grupo">
+                <col class="grupo1">
+            </colgroup>
+            <caption>Tabela de Responsiva</caption>
+            <thead>
+                <th scope="col">Produtos</th>
+                <th scope="col">Janeiro</th>
+                <th scope="col">Fevereiro</th>
+                <th scope="col">Março</th>
+                <th scope="col">Abril</th>
+                <th scope="col">Maio</th>
+                <th scope="col">Junho</th>
+                <th scope="col">Julho</th>
+                <th scope="col">Agosto</th>
+                <th scope="col">Setembro</th>
+                <th scope="col">Outubro</th>
+                <th scope="col">Novembro</th>
+                <th scope="col">Dezembro</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td >Tvs Samsung</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>12</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>63</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>45</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Tvs cce</td>
+                    <td>21</td>
+                    <td>15</td>
+                    <td>52</td>
+                    <td>30</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>4</td>
+                    <td>31</td>
+                    <td>15</td>
+                    <td>25</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Fogões</td>
+                    <td>1</td>
+                    <td>12</td>
+                    <td>22</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Geladeiras </td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>19</td>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>5</td>
+                    <td>11</td>
+                    <td>20</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>21</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>AirFrys</td>
+                    <td>20</td>
+                    <td>18</td>
+                    <td>23</td>
+                    <td>43</td>
+                    <td>19</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>14</td>
+                    <td>33</td>
+                    <td>25</td>
+                    <td>17</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Sanduicheiras</td>
+                    <td>41</td>
+                    <td>35</td>
+                    <td>22</td>
+                    <td>39</td>
+                    <td>42</td>
+                    <td>63</td>
+                    <td>19</td>
+                    <td>41</td>
+                    <td>39</td>
+                    <td>55</td>
+                    <td>29</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Panelas</td>
+                    <td>51</td>
+                    <td>19</td>
+                    <td>72</td>
+                    <td>43</td>
+                    <td>39</td>
+                    <td>63</td>
+                    <td>49</td>
+                    <td>24</td>
+                    <td>37</td>
+                    <td>35</td>
+                    <td>51</td>
+                    <td>43</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    
+</body>
+</html>
